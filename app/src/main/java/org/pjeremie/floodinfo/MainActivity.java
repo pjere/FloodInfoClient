@@ -109,7 +109,7 @@ public class MainActivity extends AppCompatActivity {
 
         URL obj = new URL(url);
         HttpsURLConnection con = (HttpsURLConnection) obj.openConnection();
-        gps = new GPSTracker(MainActivity.this);
+
         //add reuqest header
         con.setRequestMethod("POST");
         con.setRequestProperty("User-Agent", "Mozilla/5.0");
@@ -157,7 +157,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
 
 
-
+                gps = new GPSTracker(MainActivity.this);
                 StringBuffer result = new StringBuffer();
                 synchronized(this) {
                 result.append("Inondé : ").append(FloodedtoggleButton.getText());
