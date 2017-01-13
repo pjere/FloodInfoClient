@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_weight="0" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <TextView
+            android:text="@string/flooded"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/FloodedtextView"
+            android:layout_weight="1" />
+
+        <ToggleButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/FloodedtoggleButton"
+            android:layout_weight="1"
+            android:textOff="@string/no"
+            android:textOn="@string/yes" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <TextView
+            android:text="@string/flooded_cave"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/FloodedCavetextView"
+            android:layout_weight="1" />
+
+        <ToggleButton
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textOff="@string/no"
+            android:textOn="@string/yes"
+            android:id="@+id/FloodedCavetoggleButton" />
+
+
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_weight="0" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+    <TextView
+        android:text="@string/power"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/PowertextView"
+        android:layout_weight="1" />
+
+    <ToggleButton
+        
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/PowertoggleButton"
+        android:layout_weight="1"
+        android:checked="true"
+        android:textOff="@string/unavailable"
+        android:textOn="@string/available" />
+</LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <TextView
+            android:text="@string/water"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/EauPotabletextView"
+            android:layout_weight="1" />
+
+        <ToggleButton
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/EauPotabletoggleButton"
+            android:layout_weight="1"
+            android:textOff="@string/unavailable"
+            android:textOn="@string/available"
+            android:checked="true" />
+    </LinearLayout>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+    <TextView
+        android:text="@string/drainage"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/AssainissementtextView"
+        android:layout_weight="1" />
+
+    <ToggleButton
+        
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/AssainissementtoggleButton"
+        android:layout_weight="1"
+        android:textOff="@string/unavailable"
+        android:textOn="@string/available"
+        android:checked="true" />
+
+</LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <TextView
+            android:text="@string/gaz"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/GaztextView"
+            android:layout_weight="1" />
+
+        <ToggleButton
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/GaztoggleButton"
+            android:layout_weight="1"
+            android:textOff="@string/unavailable"
+            android:textOn="@string/available"
+            android:checked="true" />
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <TextView
+            android:text="@string/telephone"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/TelephonetextView"
+            android:layout_weight="1" />
+
+        <ToggleButton
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/TelephonetoggleButton"
+            android:layout_weight="1"
+            android:textOff="@string/unavailable"
+            android:textOn="@string/available"
+            android:checked="true" />
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_weight="0" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <TextView
+            android:text="@string/impacted"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/NumImpactedTextView"
+            android:layout_weight="1" />
+
+        <NumberPicker
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/numberPicker"
+            android:layout_weight="1"/>
+
+
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_weight="0" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/button"
+        android:layout_weight="0"
+        android:visibility="visible"
+        android:text="@string/report"
+        android:textAppearance="@android:style/TextAppearance.WindowTitle" />
+
+
+</LinearLayout>

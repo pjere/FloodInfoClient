@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FloodInfo</string>
+    <string name="flooded">Inondé</string>
+    <string name="no">Non</string>
+    <string name="yes">Oui</string>
+    <string name="flooded_cave">Cave Inondée</string>
+    <string name="available">Disponible</string>
+    <string name="unavailable">Indisponible</string>
+    <string name="power">Électricité</string>
+    <string name="water">Eau Potable</string>
+    <string name="gaz">Gaz</string>
+    <string name="drainage">Assainissement</string>
+    <string name="telephone">Téléphone</string>
+    <string name="impacted">\n Personnes Impactées</string>
+    <string name="report">Rapporter</string>
+</resources>
